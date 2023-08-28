@@ -1,0 +1,32 @@
+/* PhrasesList.css */
+
+/* Estilos para el componente PhrasesList */
+.phrase {
+    border: 4px solid #FF5733; /* Borde grueso en color */
+    border-radius: 20px; /* Borde redondeado */
+    padding: 1rem;
+    background-color: #f8f8f8;
+    font-family: 'Comic Neue', cursive; /* Estilo de fuente tipo cómic */
+    position: relative; /* Para crear efecto de ventana */
+  }
+  
+  .phrase:before,
+  .phrase:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #FF5733;
+    border-radius: 50%;
+  }
+  
+  .phrase:before {
+    top: -6px;
+    left: -6px;
+  }
+  
+  .phrase:after {
+    top: -6px;
+    right: -6px;
+  }
+  

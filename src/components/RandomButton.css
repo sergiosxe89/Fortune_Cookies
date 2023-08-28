@@ -1,0 +1,27 @@
+/* RandomButton.css */
+
+/* Estilos para el componente RandomButton */
+.fortune-cookie-button {
+    background-color: greenyellow; /* Color dorado */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px; /* Forma redondeada */
+    font-family: 'Comic Neue', cursive;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .fortune-cookie-button:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid red; /* Mismo color dorado */
+  }
+  

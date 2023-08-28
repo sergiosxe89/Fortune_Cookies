@@ -1,0 +1,15 @@
+/* Header.css */
+
+/* Estilos para el encabezado */
+#header {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(248, 248, 248, 0.4);
+    font-family: 'Comic Neue', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra */
+    display: inline;
+  }
+  
+  

@@ -1,0 +1,17 @@
+/* App.css */
+
+/* Estilos generales de la aplicación */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  min-height: 100vh; /* Asegurar que el contenido ocupe toda la altura vertical */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 0%;
+  padding: .2rem;
+}
+
+
